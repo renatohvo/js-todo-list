@@ -21,7 +21,7 @@
             <h1>Todo List - JS</h1>
         </header>
         <form id="todo-form">
-            <p>Adicione sua Tarefa</p>
+            <p>Adicione a sua tarefa:</p>
             <div class="form-control">
                 <input type="text" id="todo-input" placeholder="O que você vai fazer?" />
                 <button type="submit">
@@ -29,7 +29,7 @@
                 </button>
             </div>
         </form>
-        <form id="edit-form">
+        <form id="edit-form" class="hide">
             <p>Edite sua Tarefa:</p>
             <div class="form-control">
                 <input type="text" id="edit-input" />
@@ -39,7 +39,7 @@
             </div>
             <button id="cancel-edit-btn">Cancelar</button>
         </form>
-        <div id="tollbar">
+        <div id="toolbar">
             <div id="search">
                 <h4>Pesquisar:</h4>
                 <form>
@@ -59,7 +59,7 @@
             </div>
         </div>
         <div id="todo-list">
-            <div class="todo">
+            <div class="todo done">
                 <h3>Estou fazendo alguma coisa...</h3>
                 <button class="finish-todo">
                     <i class="fa-solid fa-check"></i>
